@@ -20,7 +20,7 @@ public class Main {
 			System.out.print("Base: ");
 			base = scanner.nextInt();
 			
-			if (altezza <= 0)
+			if (base <= 0)
 				System.out.println("Valore non valido, inserire una base che sia > 0");
 		}
 

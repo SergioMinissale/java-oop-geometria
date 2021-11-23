@@ -24,7 +24,10 @@ public class Rettangolo {
 	}
 	//metodo void
 	void printRettangolo() {
-		System.out.println("Altezza: " + this.altezza + "\nBase: " + this.base);
-	} 
+		
+		int p = calcolaPerimetro();
+		int a = calcolaArea();
 
+		System.out.println("Perimetro: " + p + "\nArea: " + a);
+	}
 }

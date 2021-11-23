@@ -14,16 +14,8 @@ public class Main {
 		base = scanner.nextInt();
 		
 		Rettangolo r1 = new Rettangolo(altezza, base);
-		//r1.printRettangolo();
+		r1.printRettangolo();
 		
-		//calcolo perimetro
-		int p = r1.calcolaPerimetro();
-		System.out.println("Perimetro: " + p);
-		
-		//calcolo dell' area
-		int a = r1.calcolaArea();
-		System.out.println("Area: " + a);
-	
 		scanner.close();
 	}
 
